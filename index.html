@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JID Fan Page</title>
+</head>
+<body>
+    <article>
+        <header>J.I.D Fan Page</header>
+        <main>
+        <p>JID is a rapper from Atlanta. He is signed to Dreamville 
+            and has released three studio albums.
+        </p>
+        <img src="https://www.rollingstone.com/wp-content/uploads/2022/08/JID-govball.jpg">
+        <p>JID's official <a href="https://www.jidsv.com/#/" target="_blank">website</a></p>
+        <section>
+        <h1>Top songs on Spotify</h1>
+        <ol>
+            <li>Enemy (with Imagine Dragons)</li>
+            <li>Surround Sound (ft 21 Savage & Baby Tate)</li>
+            <li>Dance Now (ft Kenny Mason</li>
+            <li>Raydar</li>
+            <li>151 Rum</li>
+        </ol>
+        </section>
+        <section>
+        <h1>Albums</h1>
+        <ul>
+            <li>The Forever Story <img src="https://media.pitchfork.com/photos/6307ca24d4bc41f168c74840/1:1/w_600/JID-The-Forever-Story.jpg" id="albums"></li>
+            <li>Dicaprio 2 <img src="https://upload.wikimedia.org/wikipedia/en/2/27/DiCaprio2ALT.jpg" id="albums"></li>
+            <li>The Never Story <img src="https://i1.sndcdn.com/artworks-dcb26030-f338-4384-8610-9745bcc90042-0-t500x500.jpg" id="albums"></li>
+        </ul>
+        </section>
+        <section>
+        <h1>Upcoming Shows</h1>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>City</th>
+            <th>Venue</th>
+        </tr>
+        <tr>
+            <td>January 30/31, 2023</td>
+            <td>LA</td>
+            <td><a href="https://www.livenation.com/venue/KovZpZAEAlaA/hollywood-palladium-events" target="_blank">Hollywood Palladium</a></td>
+        </tr>
+        <tr>
+            <td>February 18/19, 2023</td>
+            <td>Atlanta</td>
+            <td><a href="https://www.livenation.com/venue/KovZ917ACc7/coca-cola-roxy-events" target="_blank">Coca-Cola Roxy</a></td>
+        </tr>
+        <tr>
+            <td>February 22, 2023</td>
+            <td>Miami</td>
+            <td><a href="https://www.oasiswynwood.com/" target="_blank">Wynwood</a></td>
+        </tr>
+        <tr>
+            <td>March 1,2023</td>
+            <td>Philly</td>
+            <td><a href="https://www.thefillmorephilly.com/" target="_blank">The Fillmore</a></td>
+        </tr>
+        <tr>
+            <td>March 3/4, 2023</td>
+            <td>NYC</td>
+            <td><a href="https://www.terminal5nyc.com/" target="_blank">Terminal 5</a></td>
+        </tr>
+        </table>
+        </section>
+        <section>
+            <h1>Questions</h1>
+            <form action="/index.html" method="GET">
+                <label for="favAlbum">What is your favorite JID album?</label>
+                <select name="discog" id="favAlbum">
+                    <option value="The Forever Story">The Forever Story</option>
+                    <option value="Dicaprio">Dicaprio 2</option>
+                    <option value="The Never Story">The Never Story</option>
+                </select>
+               <br>
+                <label for="favSong">What is your favorite JID song?</label>
+                <input type="text" id="favSong">
+              <br>
+                <label for="city">Which city will you be attending a show at?</label>
+                <input list="cities" name="cities">
+                <datalist id="cities">
+                    <option value="LA">
+                    <option  value="Atlanta">
+                    <option value="Miami">
+                    <option  value="Philly">
+                    <option value="NYC">
+                </datalist>
+             <br>
+                <label for="concerts">How many concerts have you attended</label>
+                <input type="radio" id="attended0-3" name="concerts" value="3">
+                <label for="attended0-3">0-3</label>
+                <input type="radio" id="attended4-8" name="concerts" value="8">
+                <label for="attended4-8">4-8</label>
+                <input type="radio" id="attended9+" name="concerts" value="9">
+                <label for="attended9+">9+</label>
+            <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        </main>
+    </article>
+    
+</body>
+</html>
